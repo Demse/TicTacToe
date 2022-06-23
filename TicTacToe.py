@@ -82,11 +82,12 @@ def replay():
     return input('Do you want to play again? Enter Yes or No: ').lower().startswith('y')
 
 print('Welcome to Tic Tac Toe!')
-print('7'  '|', '8'  ' |','9')
-print('--------')
-print('4' '|', '5'  ' |','6')
-print('--------')
-print('1'  '|', '2'  ' |','3')
+print('7 ''|' ' 8 ' '|' ' 9 ')
+print('---------')
+print('4 ''|' ' 5 ' '|' ' 6 ')
+print('---------')
+print('1 ''|' ' 2 ' '|' ' 3 ')
+
 
 while True:
     # Reset the board
